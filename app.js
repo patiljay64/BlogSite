@@ -4,7 +4,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 
 // mongoose connect DB
-mongoose.connect("mongodb://127.0.0.1:27017/blogDB");
+mongoose.connect("mongodb+srv://<userName>:<password>@localprojects.cxfngvq.mongodb.net/blogDB");
 
 mongoose.connection
   .once("open", () => {
