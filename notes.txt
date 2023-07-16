@@ -1,0 +1,6 @@
+in the home we can use alsothis
+
+<% for (let i = 0; i < postArray.length; i++) { 
+     <%= postArray[i].title %>
+    <%= postArray[i].content %>
+ } %>
